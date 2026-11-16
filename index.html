@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#120d1c">
+<title>For Nafisha 💗 | A Birthday Surprise</title>
+<style>
+:root{--bg:#100b18;--pink:#ff6fae;--gold:#f6d58a;--cream:#fff5f8;--muted:#c8b9ca}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 15% 10%,#38203b 0,transparent 35%),radial-gradient(circle at 90% 85%,#3a1830 0,transparent 35%),var(--bg);color:var(--cream);font-family:Georgia,'Times New Roman',serif;min-height:100vh}
+button,input{font:inherit}.wrap{width:min(920px,92%);margin:auto}.screen{min-height:100vh;display:grid;place-items:center;padding:28px 0}.panel{width:min(560px,100%);padding:clamp(24px,6vw,48px);border:1px solid #ffffff24;border-radius:26px;background:#160f20df;box-shadow:0 24px 80px #0008;backdrop-filter:blur(12px)}
+.terminal{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#a7f3c0;font-size:.83rem;line-height:1.8}.tag{color:var(--pink)}h1,h2{font-weight:normal;line-height:1.12}h1{font-size:clamp(2.3rem,8vw,4.5rem);margin:.5rem 0}h2{font-size:clamp(2rem,6vw,3.2rem);margin:.3rem 0 1rem}.sub{color:var(--muted);line-height:1.7}.field{display:flex;gap:10px;margin-top:24px;flex-wrap:wrap}input{flex:1;min-width:0;padding:15px 16px;border-radius:12px;border:1px solid #ffffff35;background:#0d0914;color:white;outline:none}input:focus{border-color:var(--pink)}button{border:0;border-radius:12px;padding:14px 20px;background:linear-gradient(120deg,#ff6fae,#d84d91);color:white;font-weight:bold;cursor:pointer;box-shadow:0 8px 24px #ff6fae33}button:hover{transform:translateY(-1px)}.hint{font-size:.82rem;color:#a99aaa;margin-top:14px}.error{color:#ff9ba9;min-height:24px;font-family:ui-monospace,monospace;font-size:.82rem;margin-top:12px}
+#surprise{display:none}.hero{text-align:center;padding:70px 0 30px}.eyebrow{letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font: .75rem ui-monospace,monospace}.hero p{max-width:650px;margin:18px auto;color:#e7d8e4;line-height:1.85;font-size:1.08rem}.heart{color:var(--pink);font-size:1.6rem}.gallery{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:28px 0}.photo{margin:0;overflow:hidden;border-radius:20px;border:1px solid #ffffff25;background:#21182a;box-shadow:0 16px 36px #0005}.photo img{display:block;width:100%;height:100%;max-height:620px;object-fit:cover}.photo:first-child img{aspect-ratio:3/4}.photo:nth-child(2) img{aspect-ratio:3/4}.note{margin:36px 0 70px;padding:clamp(24px,5vw,42px);border:1px solid #f6d58a55;border-radius:24px;background:linear-gradient(135deg,#251525,#1a1221);text-align:center}.note p{line-height:1.9;color:#f0e2ec}.signature{color:var(--gold);font-size:1.25rem;margin-top:24px}.footer{text-align:center;color:#9e8c9f;padding:0 0 34px;font: .75rem ui-monospace,monospace}.sparkle{position:fixed;pointer-events:none;z-index:5;animation:float 5s linear forwards;opacity:.8}@keyframes float{from{transform:translateY(20px) rotate(0);opacity:0}15%{opacity:1}to{transform:translateY(-110vh) rotate(260deg);opacity:0}}.terminal-lines{margin:20px 0;padding:15px;border-radius:12px;background:#080b0d;border:1px solid #6bf0a433}
+@media(max-width:620px){.gallery{grid-template-columns:1fr}.photo img{max-height:560px}.hero{padding-top:45px}}
+</style>
+</head>
+<body>
+<section class="screen" id="login">
+  <div class="wrap">
+    <div class="panel">
+      <div class="terminal"><span class="tag">shailesh@love-server</span>:~$ ./birthday_surprise.sh<br>Initializing secure connection... <span style="color:#f6d58a">OK</span><br>Target user: <strong style="color:#fff">NAFISHA</strong></div>
+      <h1>Hey, Nafisha <span class="heart">♥</span></h1>
+      <p class="sub">A very important message is waiting on this server. Only one very special person has permission to open it.</p>
+      <div class="terminal-lines terminal" id="log">[AUTH] Checking birthday access...<br>[AUTH] Husband privileges detected... pending password.</div>
+      <form class="field" id="loginForm">
+        <input id="password" type="password" placeholder="Enter the secret password" autocomplete="off" aria-label="Secret password">
+        <button type="submit">Unlock surprise ↗</button>
+      </form>
+      <div class="error" id="error" aria-live="polite"></div>
+      <div class="hint">Hint: It's the name of the person who loves you endlessly. (Case-sensitive 😉)</div>
+    </div>
+  </div>
+</section>
+
+<main id="surprise">
+  <div class="wrap">
+    <header class="hero">
+      <div class="eyebrow">SYSTEM STATUS: LOVE RUNNING 100%</div>
+      <div class="heart">♥ ♥ ♥</div>
+      <h1>Happy Birthday,<br><span style="color:var(--pink)">My Dear Nafisha!</span></h1>
+      <p>Today the world celebrates you, but I get to celebrate the beautiful person who makes my world brighter. You are my favorite notification, my safest place, and my best-ever upgrade. 💗</p>
+      <div class="eyebrow">A LITTLE PHOTO MEMORY DATABASE</div>
+    </header>
+    <section class="gallery" aria-label="Our photos">
+      <figure class="photo"><img src="images/photo-1.jpeg" alt="A photo of Shailesh and Nafisha together"></figure>
+      <figure class="photo"><img src="images/photo-2.jpeg" alt="A lovely portrait of Nafisha"></figure>
+    </section>
+    <section class="note">
+      <div class="eyebrow">MESSAGE FROM YOUR FAVORITE HUMAN</div>
+      <h2>To my favorite person</h2>
+      <p>Happy Birthday, Nafisha. I hope this new year of your life brings you endless happiness, good health, peaceful days, exciting adventures, and every beautiful thing your heart wishes for.</p>
+      <p>Thank you for being you. No algorithm could calculate how lucky I am to have you, and no cloud could ever store all the love I have for you. May we keep making memories, laughing at silly things, and choosing each other every day.</p>
+      <p>And just so the system records it clearly: you will always have <strong>ADMIN ACCESS</strong> to my heart. No expiration date. No subscription fee. Unlimited lifetime support. ❤️</p>
+      <div class="signature">With all my love,<br>Shailesh</div>
+    </section>
+    <div class="footer">© FOREVER & ALWAYS · BUILT WITH LOVE, NOT JUST CODE · STATUS: HAPPILY YOURS</div>
+  </div>
+</main>
+<script>
+const form=document.getElementById('loginForm');
+form.addEventListener('submit',function(e){
+ e.preventDefault();
+ const value=document.getElementById('password').value;
+ const error=document.getElementById('error');
+ const log=document.getElementById('log');
+ if(value!=='Shailesh'){
+   error.textContent='ACCESS DENIED: Incorrect password. Please contact your husband’s help desk. 😂';
+   log.innerHTML='[AUTH] Password rejected.<br>[HELPDESK] Ticket created: “Husband forgot to tell me the password.”';
+   return;
+ }
+ error.textContent='';
+ log.innerHTML='[AUTH] Password accepted. <span style="color:#f6d58a">OK</span><br>[VERIFY] Marriage certificate... valid.<br>[VERIFY] Love level... INFINITE.<br>[VERIFY] Lifetime support plan... ACTIVE.<br>[ACCESS] Welcome, birthday queen!';
+ document.getElementById('login').style.display='none';
+ document.getElementById('surprise').style.display='block';
+ window.scrollTo(0,0);
+ setInterval(()=>{
+   const s=document.createElement('span');s.className='sparkle';s.textContent=['♥','✦','♡','✨'][Math.floor(Math.random()*4)];
+   s.style.left=Math.random()*100+'vw';s.style.bottom='-20px';s.style.fontSize=(14+Math.random()*20)+'px';s.style.color=Math.random()>.5?'#ff80b8':'#f6d58a';
+   document.body.appendChild(s);setTimeout(()=>s.remove(),5200);
+ },650);
+});
+</script>
+</body>
+</html>
